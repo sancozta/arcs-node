@@ -1,0 +1,16 @@
+# Builds
+**/dist
+**/tmp
+
+# Ides
+**.vscode/
+
+# Dependency
+**/node_modules
+**/package-lock.json
+
+# Optional npm cache directory
+**/.npm
+
+# Volumes
+/database/data

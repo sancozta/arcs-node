@@ -1,0 +1,33 @@
+{
+    "name": "nodearc",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon app"
+    },
+    "private": true,
+    "author": {
+        "name": "Samuel Costa"
+    },
+    "dependencies": {
+        "body-parser": "^1.15.0",
+        "compression": "^1.7.2",
+        "consign": "^0.1.6",
+        "cookie-parser": "^1.4.0",
+        "cors": "^2.8.4",
+        "debug": "^4.1.0",
+        "dotenv": "^6.1.0",
+        "express": "^4.14.0",
+        "helmet": "^3.12.0",
+        "mongodb": "^3.1.8",
+        "mongoose": "^5.3.2",
+        "morgan": "^1.7.0",
+        "mysql": "^2.15.0",
+        "pg": "^7.5.0",
+        "pug": "^2.0.0-beta6",
+        "serve-favicon": "^2.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.5"
+    }
+}
